@@ -4,9 +4,17 @@ export class User {
 
   constructor(public name: string,
               public prenom: string,
-              public profilePictureUrl: string,
+              public email: string,
+              public profilePictureUrl: string
              ){
   }
 
 
 }
+
+
+
+
+
+
+
